@@ -12,3 +12,8 @@ Modifications:
 - build.gradle: Switched to new, incubating, plugin mechanism introduced in Gradle 2.1
 - Removed JUnit Test
 - Added jcenter Repository
+
+## [2-first-endpoint](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/2-first-endpoint)
+
+With the second step, the app gets an endpoint: `/app-name`. This endpoint always respond with the plain text
+`skeleton-to-production`.
