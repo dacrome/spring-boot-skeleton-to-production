@@ -1,0 +1,3 @@
+my.object:
+  string: string
+  integer: 100

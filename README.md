@@ -17,3 +17,13 @@ Modifications:
 
 With the second step, the app gets an endpoint: `/app-name`. This endpoint always respond with the plain text
 `skeleton-to-production`.
+
+## [3-configuration](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/3-configuration)
+
+The third step shows how a Spring Boot application can be configured. It is possible to configure an object with
+`my.object` and the two properties `string` and `integer`. To request the configured properties three endpoints
+exist:
+
+- /my-object: Respond with the whole object
+- /my-string: Only respond with the `string` property value
+- /my-integer: Only respond with the `integer` property value
