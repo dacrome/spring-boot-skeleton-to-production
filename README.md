@@ -27,3 +27,7 @@ exist:
 - /my-object: Respond with the whole object
 - /my-string: Only respond with the `string` property value
 - /my-integer: Only respond with the `integer` property value
+
+## [4-testing](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/4-testing)
+
+The fourth step introduces integration tests with Spock.

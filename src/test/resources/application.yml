@@ -1,0 +1,3 @@
+my.object:
+  string: test-string
+  integer: 100000
