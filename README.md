@@ -31,3 +31,7 @@ exist:
 ## [4-testing](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/4-testing)
 
 The fourth step introduces integration tests with Spock.
+
+## [5-authentication](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/5-authentication)
+
+Authentication with OSIAM.

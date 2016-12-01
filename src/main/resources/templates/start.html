@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="head :: head"></th:block>
+</head>
+<body>
+<th:block th:include="navbar :: header"></th:block>
+<div class="container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <p th:text="'Hello, ' + ${name} + '!'"></p>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+</body>
+</html>

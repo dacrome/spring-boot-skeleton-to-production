@@ -1,3 +1,9 @@
 my.object:
   string: string
   integer: 100
+
+osiam:
+  endpoint: http://localhost:8999
+  client:
+    id: example-client
+    secret: secret

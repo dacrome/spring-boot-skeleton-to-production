@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml" th:fragment="header">
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <span class="navbar-brand"><a th:href="@{/}">Skeleton to Production</a></span>
+            </div>
+            <div class="pull-right">
+                <a th:href="@{/logout}">
+                    <span class="glyphicon glyphicon-log-out navbar-brand"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</html>
