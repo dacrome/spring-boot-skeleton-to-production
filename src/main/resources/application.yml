@@ -7,3 +7,7 @@ osiam:
   client:
     id: example-client
     secret: secret
+
+management:
+  context-path: /management
+  security.enabled: false

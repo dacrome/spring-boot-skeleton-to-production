@@ -35,3 +35,8 @@ The fourth step introduces integration tests with Spock.
 ## [5-authentication](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/5-authentication)
 
 Authentication with OSIAM.
+
+## [6-actuator](https://github.com/dacrome/spring-boot-skeleton-to-production/tree/6-actuator)
+
+Introduce the Spring Boot Actuator: Monitoring, metrics, health checks. Count every request when calling
+`/my-object`.
