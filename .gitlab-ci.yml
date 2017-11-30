@@ -1,0 +1,22 @@
+variables:
+  GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+
+stages:
+  - test
+
+test:
+  stage: test
+  tags:
+    - davids-mac
+  only:
+    - branches
+  except:
+    - master@dcrome/gitlab-ci-spring-boot-gradle
+  script:
+    - ./gradlew test
+  artifacts:
+    paths:
+    - build/reports/
+    name: reports
+    when: on_failure
+    expire_in: 4 weeks
